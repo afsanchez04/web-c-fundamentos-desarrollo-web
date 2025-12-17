@@ -83,7 +83,7 @@ nav{
   max-width: 1250px;
   border-radius: 15px;
   margin: 50px auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 /*   background-color: orange; */
 }
 
@@ -96,6 +96,7 @@ nav{
   padding: 100px 0 100px 30px;
   background-color: #1e3932;
   color: white;
+  border-radius: 18px 0 0 18px;
 }
 .banner-info a{
   display: inline-block;
@@ -115,7 +116,7 @@ nav{
   background-image: url('https://cdn.pixabay.com/photo/2019/09/04/20/34/field-4452538_1280.jpg');
   background-size: cover;
   background-position: center;
-
+  border-radius: 0 18px 18px 0;
 }
 .banner-image .malteada{
   position: absolute;
