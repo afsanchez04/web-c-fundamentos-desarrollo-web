@@ -76,6 +76,69 @@ nav{
   cursor: pointer;
 }
 
+/* Banner */
+.banner{
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  border-radius: 15px;
+  margin: 50px auto;
+  overflow: hidden;
+/*   background-color: orange; */
+}
+
+.banner-info, .banner-image{
+  /* flex-grow: 1; */
+  width: 50%;
+}
+
+.banner-info{
+  padding: 100px 0 100px 30px;
+  background-color: #1e3932;
+  color: white;
+}
+.banner-info a{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.banner-image{
+  position: relative;
+  background-image: url('https://cdn.pixabay.com/photo/2019/09/04/20/34/field-4452538_1280.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.banner-image .malteada{
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  width: 250px;
+}
+.fresa{
+  position: absolute;
+  width: 90px;
+  right: 11%;
+  top: 3%;
+  transform: rotate(28deg);
+}
+.galleta{
+  position: absolute;
+  width: 150px;
+  bottom: 0%;
+  right: 0%;
+  z-index: 1;
+}
+
+
 /* Footer */
 
 .footer-container{
